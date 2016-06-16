@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CB186661D125A4D00673F73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB186651D125A4D00673F73 /* AppDelegate.swift */; };
+		7CB186681D125A4D00673F73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB186671D125A4D00673F73 /* ViewController.swift */; };
+		7CB1866B1D125A4D00673F73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CB186691D125A4D00673F73 /* Main.storyboard */; };
+		7CB1866D1D125A4D00673F73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CB1866C1D125A4D00673F73 /* Assets.xcassets */; };
+		7CB186701D125A4D00673F73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CB1866E1D125A4D00673F73 /* LaunchScreen.storyboard */; };
+		7CB1867B1D125A4D00673F73 /* SalemAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB1867A1D125A4D00673F73 /* SalemAppTests.swift */; };
+		7CB186861D125A4D00673F73 /* SalemAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB186851D125A4D00673F73 /* SalemAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CB186771D125A4D00673F73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CB1865A1D125A4D00673F73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CB186611D125A4D00673F73;
+			remoteInfo = SalemApp;
+		};
+		7CB186821D125A4D00673F73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CB1865A1D125A4D00673F73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CB186611D125A4D00673F73;
+			remoteInfo = SalemApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7CB186621D125A4D00673F73 /* SalemApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SalemApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CB186651D125A4D00673F73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CB186671D125A4D00673F73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7CB1866A1D125A4D00673F73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CB1866C1D125A4D00673F73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CB1866F1D125A4D00673F73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CB186711D125A4D00673F73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CB186761D125A4D00673F73 /* SalemAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SalemAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CB1867A1D125A4D00673F73 /* SalemAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalemAppTests.swift; sourceTree = "<group>"; };
+		7CB1867C1D125A4D00673F73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CB186811D125A4D00673F73 /* SalemAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SalemAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CB186851D125A4D00673F73 /* SalemAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalemAppUITests.swift; sourceTree = "<group>"; };
+		7CB186871D125A4D00673F73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CB1865F1D125A4D00673F73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CB186731D125A4D00673F73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CB1867E1D125A4D00673F73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CB186591D125A4D00673F73 = {
+			isa = PBXGroup;
+			children = (
+				7CB186641D125A4D00673F73 /* SalemApp */,
+				7CB186791D125A4D00673F73 /* SalemAppTests */,
+				7CB186841D125A4D00673F73 /* SalemAppUITests */,
+				7CB186631D125A4D00673F73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CB186631D125A4D00673F73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CB186621D125A4D00673F73 /* SalemApp.app */,
+				7CB186761D125A4D00673F73 /* SalemAppTests.xctest */,
+				7CB186811D125A4D00673F73 /* SalemAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CB186641D125A4D00673F73 /* SalemApp */ = {
+			isa = PBXGroup;
+			children = (
+				7CB186651D125A4D00673F73 /* AppDelegate.swift */,
+				7CB186671D125A4D00673F73 /* ViewController.swift */,
+				7CB186691D125A4D00673F73 /* Main.storyboard */,
+				7CB1866C1D125A4D00673F73 /* Assets.xcassets */,
+				7CB1866E1D125A4D00673F73 /* LaunchScreen.storyboard */,
+				7CB186711D125A4D00673F73 /* Info.plist */,
+			);
+			path = SalemApp;
+			sourceTree = "<group>";
+		};
+		7CB186791D125A4D00673F73 /* SalemAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CB1867A1D125A4D00673F73 /* SalemAppTests.swift */,
+				7CB1867C1D125A4D00673F73 /* Info.plist */,
+			);
+			path = SalemAppTests;
+			sourceTree = "<group>";
+		};
+		7CB186841D125A4D00673F73 /* SalemAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7CB186851D125A4D00673F73 /* SalemAppUITests.swift */,
+				7CB186871D125A4D00673F73 /* Info.plist */,
+			);
+			path = SalemAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CB186611D125A4D00673F73 /* SalemApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CB1868A1D125A4D00673F73 /* Build configuration list for PBXNativeTarget "SalemApp" */;
+			buildPhases = (
+				7CB1865E1D125A4D00673F73 /* Sources */,
+				7CB1865F1D125A4D00673F73 /* Frameworks */,
+				7CB186601D125A4D00673F73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SalemApp;
+			productName = SalemApp;
+			productReference = 7CB186621D125A4D00673F73 /* SalemApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CB186751D125A4D00673F73 /* SalemAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CB1868D1D125A4D00673F73 /* Build configuration list for PBXNativeTarget "SalemAppTests" */;
+			buildPhases = (
+				7CB186721D125A4D00673F73 /* Sources */,
+				7CB186731D125A4D00673F73 /* Frameworks */,
+				7CB186741D125A4D00673F73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CB186781D125A4D00673F73 /* PBXTargetDependency */,
+			);
+			name = SalemAppTests;
+			productName = SalemAppTests;
+			productReference = 7CB186761D125A4D00673F73 /* SalemAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7CB186801D125A4D00673F73 /* SalemAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CB186901D125A4D00673F73 /* Build configuration list for PBXNativeTarget "SalemAppUITests" */;
+			buildPhases = (
+				7CB1867D1D125A4D00673F73 /* Sources */,
+				7CB1867E1D125A4D00673F73 /* Frameworks */,
+				7CB1867F1D125A4D00673F73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CB186831D125A4D00673F73 /* PBXTargetDependency */,
+			);
+			name = SalemAppUITests;
+			productName = SalemAppUITests;
+			productReference = 7CB186811D125A4D00673F73 /* SalemAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CB1865A1D125A4D00673F73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Nursultan Askarbekuly";
+				TargetAttributes = {
+					7CB186611D125A4D00673F73 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					7CB186751D125A4D00673F73 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7CB186611D125A4D00673F73;
+					};
+					7CB186801D125A4D00673F73 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7CB186611D125A4D00673F73;
+					};
+				};
+			};
+			buildConfigurationList = 7CB1865D1D125A4D00673F73 /* Build configuration list for PBXProject "SalemApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CB186591D125A4D00673F73;
+			productRefGroup = 7CB186631D125A4D00673F73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CB186611D125A4D00673F73 /* SalemApp */,
+				7CB186751D125A4D00673F73 /* SalemAppTests */,
+				7CB186801D125A4D00673F73 /* SalemAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CB186601D125A4D00673F73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CB186701D125A4D00673F73 /* LaunchScreen.storyboard in Resources */,
+				7CB1866D1D125A4D00673F73 /* Assets.xcassets in Resources */,
+				7CB1866B1D125A4D00673F73 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CB186741D125A4D00673F73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CB1867F1D125A4D00673F73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CB1865E1D125A4D00673F73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CB186681D125A4D00673F73 /* ViewController.swift in Sources */,
+				7CB186661D125A4D00673F73 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CB186721D125A4D00673F73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CB1867B1D125A4D00673F73 /* SalemAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CB1867D1D125A4D00673F73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CB186861D125A4D00673F73 /* SalemAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CB186781D125A4D00673F73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CB186611D125A4D00673F73 /* SalemApp */;
+			targetProxy = 7CB186771D125A4D00673F73 /* PBXContainerItemProxy */;
+		};
+		7CB186831D125A4D00673F73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CB186611D125A4D00673F73 /* SalemApp */;
+			targetProxy = 7CB186821D125A4D00673F73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CB186691D125A4D00673F73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CB1866A1D125A4D00673F73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CB1866E1D125A4D00673F73 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CB1866F1D125A4D00673F73 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CB186881D125A4D00673F73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CB186891D125A4D00673F73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CB1868B1D125A4D00673F73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SalemApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = askarbekuly.SalemApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7CB1868C1D125A4D00673F73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SalemApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = askarbekuly.SalemApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7CB1868E1D125A4D00673F73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SalemAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = askarbekuly.SalemAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SalemApp.app/SalemApp";
+			};
+			name = Debug;
+		};
+		7CB1868F1D125A4D00673F73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SalemAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = askarbekuly.SalemAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SalemApp.app/SalemApp";
+			};
+			name = Release;
+		};
+		7CB186911D125A4D00673F73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SalemAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = askarbekuly.SalemAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SalemApp;
+			};
+			name = Debug;
+		};
+		7CB186921D125A4D00673F73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SalemAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = askarbekuly.SalemAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SalemApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CB1865D1D125A4D00673F73 /* Build configuration list for PBXProject "SalemApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CB186881D125A4D00673F73 /* Debug */,
+				7CB186891D125A4D00673F73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CB1868A1D125A4D00673F73 /* Build configuration list for PBXNativeTarget "SalemApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CB1868B1D125A4D00673F73 /* Debug */,
+				7CB1868C1D125A4D00673F73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7CB1868D1D125A4D00673F73 /* Build configuration list for PBXNativeTarget "SalemAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CB1868E1D125A4D00673F73 /* Debug */,
+				7CB1868F1D125A4D00673F73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7CB186901D125A4D00673F73 /* Build configuration list for PBXNativeTarget "SalemAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CB186911D125A4D00673F73 /* Debug */,
+				7CB186921D125A4D00673F73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CB1865A1D125A4D00673F73 /* Project object */;
+}
